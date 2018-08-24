@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# Find your legacy token here: https://api.slack.com/custom-integrations/legacy-tokens
 SLACKAPIKEY=`osascript -e 'set T to text returned of (display dialog "Enter your Slack OAuth API key" buttons {"Cancel", "OK"} default button "OK" default answer "" with hidden answer)'`
 
 # Setting times to sleep in the script
